@@ -1,0 +1,59 @@
+.tela{
+   border: solid red; 
+   background-color: #191919;
+}
+div{
+    width: 50%;
+    margin:0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+input{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    font-weight: 700;
+}
+h1{
+    text-align: center;
+    font-size: 40PX;
+    color: white;
+}
+input[type="button"]{
+    cursor: pointer;
+    border: 3px solid rgb(236, 8, 8);
+    background-color: rgb(0,0,0);;
+    color: white;
+    transition: all 0.5s;
+    font-weight: lighter;
+    font-size: x-large;
+    margin-top: -25px; 
+}
+.re{
+    display: block;
+    text-align: center;
+}
+.re #resul{
+    display: flex;
+    text-align: center;
+    color: wheat;
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    right: 400px;
+   bottom:100px;
+  left: 20x;
+}
+#btn{ 
+    position: absolute;
+    display:flex;
+    left: 400px;  
+    bottom: -10px;
+}
